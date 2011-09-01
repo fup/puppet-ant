@@ -1,15 +1,31 @@
-# Class: 
+# Class: ant
 #
 # Description
+#  Apache Ant is a  Java library and command-line tool whose mission is to drive
+#  processes describedin build files as targets and extension points dependent 
+#  upon each other. The main known usage of Ant is the build of Java applications.
+#
+#  This module has been built primarily for RHEL systems.
 #
 # Parameters:
-#   
+#   $version - The version of Apache Ant that you want to install/manage. This assumes 
+#              appropriate packages (RPMs).
 # Actions:
+#  The Ant module is built to automatically install Apache Ant. 
 #
 # Requires:
-#
+#  - Repository with packages for Apache Ant. jpackage.org is a suitable source
+#     for these packages
+#  - Class[stdlib]. This is Puppet Labs standard library to include additional
+#    methods for use within Puppet. [https://github.com/puppetlabs/puppetlabs-stdlib]
+#   
 # Sample Usage:
-#
+#   Without Version:
+#     include ant
+#   With Version:
+#     class {'ant':
+#       version => '1.2',
+#     }
 class ant (
   $version = ''
 ) {
