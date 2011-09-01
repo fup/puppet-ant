@@ -14,10 +14,8 @@
 #  The Ant module is built to automatically install Apache Ant. 
 #
 # Requires:
-#  - Repository with packages for Apache Ant. jpackage.org is a suitable source
-#     for these packages
-#  - Class[stdlib]. This is Puppet Labs standard library to include additional
-#    methods for use within Puppet. [https://github.com/puppetlabs/puppetlabs-stdlib]
+#  - Repository with packages for Apache Ant. jpackage.org is a suitable source for these packages
+#  - Class[stdlib]. This is Puppet Labs standard library to include additional methods for use within Puppet. [https://github.com/puppetlabs/puppetlabs-stdlib]
 #   
 # Sample Usage:
 #   Without Version:
