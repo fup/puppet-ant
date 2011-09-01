@@ -1,3 +1,15 @@
+# Class: 
+#
+# Description
+#
+# Parameters:
+#   
+# Actions:
+#
+# Requires:
+#
+# Sample Usage:
+#
 class ant::package::redhat( 
   $version
 ) {
