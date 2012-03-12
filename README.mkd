@@ -13,7 +13,7 @@
 
 ##Requires:
  - Repository with packages for Apache Ant. jpackage.org is a suitable source for these packages
- - Class[stdlib]. This is Puppet Labs standard library to include additional methods for use within Puppet. puppetlabs/puppetlabs-stdlib
+ - Class[stdlib]. This is Puppet Labs standard library to include additional methods for use within Puppet. https://github.com/puppetlabs/puppetlabs-stdlib
 
 ##Sample Usage:
   Without Version:
